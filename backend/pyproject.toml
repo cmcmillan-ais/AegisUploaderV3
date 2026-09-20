@@ -5,15 +5,15 @@ description = "Backend for Aegis interns 2026 project"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "alembic>=1.18.5",
+    "alembic>=1.20.0",
     "apscheduler>=3.11.3",
-    "azure-keyvault-secrets>=4.11.0",
+    "azure-keyvault-secrets>=4.11.2",
     "azure-mgmt-resource>=26.0.0",
     "azure-mgmt-storage>=25.1.0",
-    "azure-storage-blob>=12.30.0",
+    "azure-storage-blob>=12.30.1",
     "azure-storage-file-share>=12.26.0",
-    "fastapi>=0.139.2",
-    "httpx2>=2.7.0",
+    "fastapi>=0.141.1",
+    "httpx2>=2.12.0",
     "hubspot-api-client>=12.0.0",
     "opentelemetry-api>=1.44.0",
     "opentelemetry-exporter-otlp>=1.43.0",
@@ -21,26 +21,26 @@ dependencies = [
     "opentelemetry-instrumentation-logging>=0.64b0",
     "opentelemetry-instrumentation-requests>=0.64b0",
     "opentelemetry-sdk>=1.43.0",
-    "psycopg[binary]>=3.3.4",
-    "pyjwt[crypto]>=2.13.0",
+    "psycopg[binary]>=3.3.5",
+    "pyjwt[crypto]>=2.14.0",
     "pytest>=9.1.1",
-    "python-dotenv>=1.2.2",
+    "python-dotenv>=1.2.3",
     "python-multipart>=0.0.32",
     "requests>=2.34.2",
-    "sqlalchemy>=2.0.51",
-    "uvicorn>=0.51.0",
+    "sqlalchemy>=2.0.52",
+    "uvicorn>=0.52.4",
     "pathvalidate>=3.3.1",
     "blake3>=1.0.9",
     "pytest-asyncio>=1.4.0",
     "azure-communication-email>=1.1.0",
-    "aiohttp>=3.14.2",
-    "gunicorn>=26.0.0",
+    "aiohttp>=3.14.3",
+    "gunicorn>=26.2.0",
     "slowapi>=0.1.10",
-    "cachetools>=7.1.6",
+    "cachetools>=7.1.8",
 ]
 [dependency-groups]
 dev = [
-    "ruff>=0.11.0",
+    "ruff>=0.16.7",
 ]
 
 [tool.ruff]
